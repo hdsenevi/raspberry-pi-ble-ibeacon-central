@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/hdsenevi/raspberry-pi-ble-ibeacon-central/issues"
   },
-  "homepage": "https://github.com/hdsenevi/raspberry-pi-ble-ibeacon-central#readme"
+  "homepage": "https://github.com/hdsenevi/raspberry-pi-ble-ibeacon-central#readme",
+  "dependencies": {
+    "noble": "^1.9.1",
+    "node-beacon-scanner": "^0.2.2"
+  }
 }
