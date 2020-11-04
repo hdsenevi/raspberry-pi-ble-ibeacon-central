@@ -1,16 +1,14 @@
-const Noble = require("noble");
-const BeaconScanner = require("node-beacon-scanner");
+const BeaconScanner = require('node-beacon-scanner');
+const scanner = new BeaconScanner();
 
-var scanner = new BeaconScanner();
-
-scanner.onadvertisement = (advertisement) => {
-    var beacon = advertisement["iBeacon"];
-    beacon.rssi = advertisement["rssi"];
-    console.log(JSON.stringify(beacon, null, "    "))
+// Set an Event handler for becons
+scanner.onadvertisement = (ad) => {
+    console.log(JSON.stringify(ad, null, '  '));
 };
 
+// Start scanning
 scanner.startScan().then(() => {
-    console.log("Scanning for BLE devices...");
+    console.log('Started to scan.');
 }).catch((error) => {
     console.error(error);
 });

@@ -2,4 +2,4 @@
 
 ## Instructions
 
-use node 8
+using node v10.15.2
