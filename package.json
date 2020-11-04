@@ -1,0 +1,20 @@
+{
+  "name": "raspberry-pi-ble-ibeacon-central",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdsenevi/raspberry-pi-ble-ibeacon-central.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hdsenevi/raspberry-pi-ble-ibeacon-central/issues"
+  },
+  "homepage": "https://github.com/hdsenevi/raspberry-pi-ble-ibeacon-central#readme"
+}
