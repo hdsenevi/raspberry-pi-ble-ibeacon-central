@@ -1,6 +1,6 @@
 const BeaconScanner = require('node-beacon-scanner');
 const scanner = new BeaconScanner();
-import { beaconMapper } from './utils/beaconDataMapper.js';
+const beaconMapper = require('./utils/beaconDataMapper.js');
 
 // Set an Event handler for becons
 scanner.onadvertisement = (advertisement) => {

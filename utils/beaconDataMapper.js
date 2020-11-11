@@ -1,4 +1,4 @@
-export const beaconMapper = (advertisement) => {
+export default (advertisement) => {
     return {
         "uuid": advertisement.iBeacon.uuid,
         "major": advertisement.iBeacon.major,
