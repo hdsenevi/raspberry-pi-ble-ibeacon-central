@@ -1,5 +1,27 @@
 # Raspberry PI BLE iBeacon central test
 
-## Instructions
+## Prerequisites
 
-using node v10.15.2
+node
+
+``` 
+v10.23.0
+```
+
+on raspberry pi
+
+```
+sudo apt-get install bluetooth bluez libbluetooth-dev libudev-dev
+```
+
+## Instrunctions
+
+install dependancies
+```
+npm install
+```
+
+run
+```
+sudo node app.js
+```
