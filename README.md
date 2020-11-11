@@ -25,3 +25,11 @@ run
 ```
 sudo node app.js
 ```
+
+
+
+## Reference
+
+- https://www.thepolyglotdeveloper.com/2018/03/use-nodejs-raspberry-pi-zero-w-scan-ble-ibeacon-devices/
+- https://github.com/futomi/node-beacon-scanner
+- https://github.com/abandonware/noble
