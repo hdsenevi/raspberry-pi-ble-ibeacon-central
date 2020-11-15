@@ -2,11 +2,15 @@ const BeaconScanner = require('node-beacon-scanner');
 const scanner = new BeaconScanner();
 // const BeaconMapper = require('./utils/beaconDataMapper.js');
 
+const devices = new Set();
+
 // Set an Event handler for becons
 scanner.onadvertisement = (advertisement) => {
   if (advertisement.beaconType === 'iBeacon') {
     const beacon = beaconMapper(advertisement);
-    console.log(JSON.stringify(beacon));
+    console.clear();
+    devices[advertisement.iBeacon.uuid] = beacon;
+    console.log(devices);
   }
 };
 
